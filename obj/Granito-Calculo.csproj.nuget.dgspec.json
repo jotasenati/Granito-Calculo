@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jonatas/Documentos/Granito/Granito/Granito-Calculo/Granito-Calculo.csproj": {}
+    "/home/jonatas/Documentos/Granito-Calculo/Granito-Calculo.csproj": {}
   },
   "projects": {
-    "/home/jonatas/Documentos/Granito/Granito/Granito-Calculo/Granito-Calculo.csproj": {
+    "/home/jonatas/Documentos/Granito-Calculo/Granito-Calculo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jonatas/Documentos/Granito/Granito/Granito-Calculo/Granito-Calculo.csproj",
+        "projectUniqueName": "/home/jonatas/Documentos/Granito-Calculo/Granito-Calculo.csproj",
         "projectName": "Granito-Calculo",
-        "projectPath": "/home/jonatas/Documentos/Granito/Granito/Granito-Calculo/Granito-Calculo.csproj",
+        "projectPath": "/home/jonatas/Documentos/Granito-Calculo/Granito-Calculo.csproj",
         "packagesPath": "/home/jonatas/.nuget/packages/",
-        "outputPath": "/home/jonatas/Documentos/Granito/Granito/Granito-Calculo/obj/",
+        "outputPath": "/home/jonatas/Documentos/Granito-Calculo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jonatas/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
