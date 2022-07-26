@@ -15,7 +15,7 @@ public class CalculoService : ICalculoTaxas
         {
             var taxa =  _taxasService.BuscaTaxas();
 
-            var teste = taxa.Result.taxa;   
+            var teste = taxa.Result;   
 
             var valorFinal = valorInicial * (1 +  teste) * meses;
             return Task.Run(() => 1.00);

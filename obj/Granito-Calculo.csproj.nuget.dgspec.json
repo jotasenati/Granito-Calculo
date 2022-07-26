@@ -1,26 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/home/jonatas/Documentos/Granito-Calculo/Granito-Calculo.csproj": {}
+    "C:\\Users\\discover\\Documents\\Granito\\Granito-Calculo\\Granito-Calculo.csproj": {}
   },
   "projects": {
-    "/home/jonatas/Documentos/Granito-Calculo/Granito-Calculo.csproj": {
+    "C:\\Users\\discover\\Documents\\Granito\\Granito-Calculo\\Granito-Calculo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jonatas/Documentos/Granito-Calculo/Granito-Calculo.csproj",
+        "projectUniqueName": "C:\\Users\\discover\\Documents\\Granito\\Granito-Calculo\\Granito-Calculo.csproj",
         "projectName": "Granito-Calculo",
-        "projectPath": "/home/jonatas/Documentos/Granito-Calculo/Granito-Calculo.csproj",
-        "packagesPath": "/home/jonatas/.nuget/packages/",
-        "outputPath": "/home/jonatas/Documentos/Granito-Calculo/obj/",
+        "projectPath": "C:\\Users\\discover\\Documents\\Granito\\Granito-Calculo\\Granito-Calculo.csproj",
+        "packagesPath": "C:\\Users\\discover\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\discover\\Documents\\Granito\\Granito-Calculo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jonatas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\discover\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Adyou/_packaging/Adyou/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -41,6 +44,10 @@
             "Flurl.Http": {
               "target": "Package",
               "version": "[3.2.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -65,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

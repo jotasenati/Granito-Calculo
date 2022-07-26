@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "w576QTPQMnC8azUOmTW7DnxrAisPvdt0uaQRE2wxQxZHKP6WTf0Vi5xiKepeThCTbXf4QKZiCbePKy4g4MMozw==",
+  "dgSpecHash": "BLmycr5gOc9V5xKjSs0BHsGnw+OMUBbcT5O2h3iPfpeH67fXGp7Zu/tpo+dQxCCf68ctk0xQYSLIpLuWypxMLA==",
   "success": true,
-  "projectFilePath": "/home/jonatas/Documentos/Granito-Calculo/Granito-Calculo.csproj",
+  "projectFilePath": "C:\\Users\\discover\\Documents\\Granito\\Granito-Calculo\\Granito-Calculo.csproj",
   "expectedPackageFiles": [
-    "/home/jonatas/.nuget/packages/flurl/3.0.6/flurl.3.0.6.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/flurl.http/3.2.4/flurl.http.3.2.4.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "/home/jonatas/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    "C:\\Users\\discover\\.nuget\\packages\\flurl\\3.0.6\\flurl.3.0.6.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\flurl.http\\3.2.4\\flurl.http.3.2.4.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\discover\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }
