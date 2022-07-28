@@ -52,3 +52,9 @@ C:\Users\discover\Documents\Granito\Granito-Calculo\obj\Debug\net6.0\Granito-Cal
 C:\Users\discover\Documents\Granito\Granito-Calculo\obj\Debug\net6.0\Granito-Calculo.dll
 C:\Users\discover\Documents\Granito\Granito-Calculo\obj\Debug\net6.0\refint\Granito-Calculo.dll
 C:\Users\discover\Documents\Granito\Granito-Calculo\obj\Debug\net6.0\Granito-Calculo.pdb
+C:\Users\discover\Documents\Granito\Granito-Calculo\bin\Debug\net6.0\Granito-Calculo.deps.json
+C:\Users\discover\Documents\Granito\Granito-Calculo\bin\Debug\net6.0\Granito-Calculo.runtimeconfig.json
+C:\Users\discover\Documents\Granito\Granito-Calculo\bin\Debug\net6.0\Granito-Calculo.dll
+C:\Users\discover\Documents\Granito\Granito-Calculo\bin\Debug\net6.0\Granito-Calculo.pdb
+C:\Users\discover\Documents\Granito\Granito-Calculo\obj\Debug\net6.0\Granito-Calculo.genruntimeconfig.cache
+C:\Users\discover\Documents\Granito\Granito-Calculo\obj\Debug\net6.0\ref\Granito-Calculo.dll

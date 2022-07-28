@@ -25,4 +25,9 @@ public class CalculoService : ICalculoTaxas
             throw new Exception(e.Message);
         }
     }
+
+    public Task<List<string>> ShowCode()
+    {
+        return Task.Run(() => _taxasService.BuscaRepoGit()); 
+    }
 }

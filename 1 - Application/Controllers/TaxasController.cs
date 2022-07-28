@@ -19,6 +19,13 @@ public class CalculoController : ControllerBase
     [HttpGet("/calcula-juros")]
     public async Task<IActionResult> Get([FromQuery]double valorInicial, [FromQuery]int meses)
     {
-        return Ok(await Task.Run(() => _serviceCalculo.Calcula(valorInicial,meses)));
+            return Ok(await Task.Run(() => _serviceCalculo.Calcula(valorInicial, meses)));
     }
+
+    [HttpGet("/show-me-the-code")]
+    public async Task<IActionResult> ShowCode()
+    {
+        return Ok(await Task.Run(() => _serviceCalculo.ShowCode()));
+    }
+
 }

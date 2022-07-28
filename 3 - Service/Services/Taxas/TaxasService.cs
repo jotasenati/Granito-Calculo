@@ -22,4 +22,14 @@ public class TaxasService : ITaxas
     {
         public double taxa { get; set; }
     }
+
+    public async Task<List<string>> BuscaRepoGit()
+    {
+        List<string> repo = new List<string>();
+
+        repo.Add("https://github.com/jotasenati/Granito-Taxas");
+        repo.Add("https://github.com/jotasenati/Granito-Calculo");
+
+        return repo;
+    }
 }
