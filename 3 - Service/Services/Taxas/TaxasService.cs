@@ -10,26 +10,32 @@ public class TaxasService : ITaxas
     HttpClient client = new HttpClient();
     public async Task<double> BuscaTaxas()
     {
-        string url = ApiTaxas.ApiKey;
-        var response = await client.GetStringAsync(url);
-        var produtos = JsonConvert.DeserializeObject<double>(response);
+        try
+        {
+            // BUSCANDO DADOS API
+            string url = ExternalApis.ApiTaxa;
+            var response = await client.GetStringAsync(url);
+            var produtos = JsonConvert.DeserializeObject<double>(response);
 
-        return produtos;
+            // RETORNO DADOS
+            return produtos;
+        }
+        catch (Exception ex) 
+        {
+            throw new Exception(ex.Message);
+        }
     }
 
-    [Serializable]
-    public class Taxa
-    {
-        public double taxa { get; set; }
+        public async Task<List<string>> BuscaRepoGit()
+        {
+            try
+            {
+                // ADICIONANDO URL DOS REPOSITORIOS DO GITHUB
+                return new List<string>() { ExternalApis.ApiGitCalculo, ExternalApis.ApiGitTaxas };
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
-
-    public async Task<List<string>> BuscaRepoGit()
-    {
-        List<string> repo = new List<string>();
-
-        repo.Add("https://github.com/jotasenati/Granito-Taxas");
-        repo.Add("https://github.com/jotasenati/Granito-Calculo");
-
-        return repo;
-    }
-}

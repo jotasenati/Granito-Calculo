@@ -7,18 +7,19 @@ public class CalculoService : ICalculoTaxas
 {
     private readonly ITaxas _taxasService;
 
-    public CalculoService (ITaxas taxasService) => _taxasService = taxasService;
+    public CalculoService(ITaxas taxasService) => _taxasService = taxasService;
 
     public Task<double> Calcula(double valorInicial, int meses)
     {
         try
         {
-            var taxa =  _taxasService.BuscaTaxas();
+            //BUSCANDO A TAXA PARA CALCULO
+            var taxa = _taxasService.BuscaTaxas();
 
-            var teste = taxa.Result;   
+            var calcInicio = valorInicial * (1 +  taxa.Result);
 
-            var valorFinal = valorInicial * (1 +  teste) * meses;
-            return Task.Run(() => 1.00);
+            //RETORNANDO E FAZENDO CALCULO DE TAXAS
+            return Task.Run(() => Math.Pow(calcInicio, meses));
         }
         catch (Exception e)
         {
@@ -28,6 +29,6 @@ public class CalculoService : ICalculoTaxas
 
     public Task<List<string>> ShowCode()
     {
-        return Task.Run(() => _taxasService.BuscaRepoGit()); 
+        return Task.Run(() => _taxasService.BuscaRepoGit());
     }
 }
